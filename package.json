@@ -1,0 +1,12 @@
+{
+  "name": "movie-watchlist-app",
+  "version": "1.0.0",
+  "description": "Electron Movie Watchlist using OMDb API",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^45.0.0"
+  }
+}

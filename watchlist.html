@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Movie Watchlist</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <header>
+
+        <h1>🎬 My Watchlist</h1>
+
+        <button id="backBtn">
+            ← Discover Movies
+        </button>
+
+    </header>
+
+
+    <main>
+
+        <!-- Movie Statistics -->
+
+        <section class="statistics">
+
+            <h2>Watchlist Statistics</h2>
+
+            <div class="stat-card">
+
+                <h3>Total Movies</h3>
+
+                <p id="movieCount">0</p>
+
+            </div>
+
+            <div class="stat-card">
+
+                <h3>Total Watch Time</h3>
+
+                <p id="totalRuntime">0 minutes</p>
+
+            </div>
+
+            <div class="stat-card">
+
+                <h3>Average Runtime</h3>
+
+                <p id="averageRuntime">0 minutes</p>
+
+            </div>
+
+        </section>
+
+
+        <!-- Saved Movies -->
+
+        <section>
+
+            <h2>Saved Movies</h2>
+
+            <p>
+                Update each movie's status or remove it
+                from your watchlist.
+            </p>
+
+            <div id="watchlistContainer" class="movie-grid"></div>
+
+        </section>
+
+
+        <!-- Recommendations -->
+
+        <section class="recommendations">
+
+            <h2>🎯 Recommended For You</h2>
+
+            <p>
+                Recommendations are selected by comparing
+                movie genres with your saved movies.
+            </p>
+
+            <div id="recommendationContainer" class="movie-grid"></div>
+
+        </section>
+
+    </main>
+
+
+    <script src="watchlist.js"></script>
+
+</body>
+
+</html>

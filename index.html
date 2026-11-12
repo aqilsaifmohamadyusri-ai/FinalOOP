@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Movie Watchlist</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>🎬 Movie Watchlist</h1>
+
+        <button id="watchlistBtn">
+            My Watchlist
+        </button>
+    </header>
+
+    <main>
+
+        <section class="search-section">
+
+            <h2>Discover Movies</h2>
+
+            <div class="search-box">
+
+                <input type="text" id="searchInput" placeholder="Search for a movie...">
+
+                <button id="searchBtn">
+                    Search
+                </button>
+
+            </div>
+
+            <div class="filter-box">
+
+                <label for="genreFilter">
+                    Filter by Genre:
+                </label>
+
+                <select id="genreFilter">
+
+                    <option value="All">
+                        All Genres
+                    </option>
+
+                    <option value="Action">
+                        Action
+                    </option>
+
+                    <option value="Adventure">
+                        Adventure
+                    </option>
+
+                    <option value="Comedy">
+                        Comedy
+                    </option>
+
+                    <option value="Drama">
+                        Drama
+                    </option>
+
+                    <option value="Horror">
+                        Horror
+                    </option>
+
+                    <option value="Romance">
+                        Romance
+                    </option>
+
+                    <option value="Sci-Fi">
+                        Sci-Fi
+                    </option>
+
+                    <option value="Thriller">
+                        Thriller
+                    </option>
+
+                </select>
+
+            </div>
+
+        </section>
+
+
+        <section>
+
+            <h2>Movies</h2>
+
+            <div id="movieContainer" class="movie-grid"></div>
+
+        </section>
+
+    </main>
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>
